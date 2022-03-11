@@ -1,21 +1,22 @@
 #include <stdio.h>
 
 /**
- *main- all single digit numbers of base 10 starting from 0, followed by a new line.
- *
- *
- *return:(0)
- */
+  * main - Prints the numbers since 0 to 9
+  *
+  * Return: Always (Success)
+  */
 
 int main(void)
 {
 	int i = 0;
-	while (i < 10)
 
+	while (i < 10)
 	{
 		printf("%d", i);
 		i++;
 	}
+
 	printf("\n");
+
 	return (0);
 }
