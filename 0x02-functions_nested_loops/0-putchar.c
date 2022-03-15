@@ -1,23 +1,20 @@
 #include "main.h"
 /**
- * main - entry point
- * description-a program that prints _putchar, followed by a new line.
- * Return:0
+ * main - Entry block
+ * Description: prints holberton on new line
+ * Return: 0
  */
 int main(void)
 {
-	char C[10] = "_putchar";
+	char c[9] = "_putchar";
 
-	int i;
+	int i = 0;
 
-	for (i = 0; c <= 9; i++)
+	while (i < 9)
 	{
-
-		putchar(c[i]);
-
+		_putchar(c[i]);
+		i++;
 	}
-
-	putchar('\n')
+	_putchar('\n');
 	return (0);
-
 }
