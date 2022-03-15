@@ -3,5 +3,8 @@
 /* _putchar.c */
 int _putchar(char);
 
-/*10 x alphabet */
+/*  alphabet */
 void print_alphabet(void);
+
+/* alphabet_10x */
+void print_alphabet_x10(void);
